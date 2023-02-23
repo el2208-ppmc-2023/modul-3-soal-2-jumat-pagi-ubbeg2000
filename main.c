@@ -74,7 +74,6 @@ int main(){
     // Validasi File 
     if(file_char == NULL){
         printf("File tidak dapat dibuka. Program Berakhir.");
-        fclose(file_char);
         return 0;
     }
 
